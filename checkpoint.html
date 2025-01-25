@@ -42,11 +42,14 @@
       align-items: center;
       cursor: pointer;
       transition: background-color 0.3s ease, transform 0.2s ease;
+      a {text-decoration: none;}
+      a 
     }
 
     .checkpoint:hover {
       background-color: #e6f7ff;
       transform: scale(1.02);
+
     }
 
     .checkpoint.selected {
@@ -72,11 +75,13 @@
 
     .checkpoint-info p {
       margin: 5px 0;
+      
     }
 
     .status {
       font-size: 1.2em;
       font-weight: bold;
+    
     }
 
     .status.open {
@@ -101,6 +106,7 @@
         <p>Distance: 2.5 km</p>
         <p class="status open">Status: Open</p>
       </div>
+      
     </a>
     </div>
 

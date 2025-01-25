@@ -1,0 +1,111 @@
+<html>
+<head>
+    <title>Checkpoint Live Status</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #04282b60;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .status {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .train-list {
+            margin: 20px;
+            padding: 0;
+            list-style: none;
+        }
+        .train-item {
+            background-color: white;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .train-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .train-name {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .train-number {
+            color: #555;
+        }
+        .train-time {
+            font-size: 1.1em;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Live Status</h1>
+    </div>
+    <div class="status">
+        <p><strong>Open</strong></p>
+    </div>
+    <ul class="train-list">
+        <li class="train-item">
+            <div class="train-info">
+                <span class="train-name">Express Train</span>
+                <span class="train-number">#12345</span>
+            </div>
+            <div class="train-time">10:30 AM</div>
+        </li>
+        <li class="train-item">
+            <div class="train-info">
+                <span class="train-name">Regional Train</span>
+                <span class="train-number">#67890</span>
+            </div>
+            <div class="train-time">11:00 AM</div>
+        </li>
+        <li class="train-item">
+            <div class="train-info">
+                <span class="train-name">Freight Train</span>
+                <span class="train-number">#11223</span>
+            </div>
+            <div class="train-time">11:30 AM</div>
+        </li>
+        <li class="train-item">
+            <div class="train-info">
+                <span class="train-name">Intercity Train</span>
+                <span class="train-number">#44556</span>
+            </div>
+            <div class="train-time">12:00 PM</div>
+        </li>
+        <li class="train-item">
+            <div class="train-info">
+                <span class="train-name">Local Train</span>
+                <span class="train-number">#77889</span>
+            </div>
+            <div class="train-time">12:30 PM</div>
+        </li>
+        <li class="train-item">
+            <div class="train-info">
+                <span class="train-name">Express Train</span>
+                <span class="train-number">#99887</span>
+            </div>
+            <div class="train-time">1:00 PM</div>
+        </li>
+    </ul>
+</body>
+</html>

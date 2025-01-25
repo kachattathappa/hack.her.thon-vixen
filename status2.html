@@ -1,0 +1,143 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Checkpoint Gate
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center">
+  <div class="bg-white shadow-md rounded-lg p-6 w-full max-w-3xl">
+   <div class="flex justify-between items-center mb-4">
+    <h1 class="text-2xl font-bold">
+     Checkpoint Gate
+    </h1>
+    <div class="flex items-center space-x-2">
+     <span class="text-lg font-semibold">
+      Time to Open:
+     </span>
+     <span class="text-lg font-semibold text-red-500" id="timer">
+      00:10:00
+     </span>
+    </div>
+   </div>
+   <div class="mb-4">
+    <h2 class="text-xl font-semibold">
+     Gate Status: <span class="text-red-500">Closed</span>
+    </h2>
+   </div>
+   <div class="mb-6">
+    <h2 class="text-xl font-semibold mb-2">
+     Upcoming Trains
+    </h2>
+    <ul class="space-y-4">
+     <li class="flex items-center justify-between p-4 bg-gray-50 rounded-lg shadow">
+      <div class="flex items-center space-x-4">
+       <img alt="Image of Train 1" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/BhMxkzxfGUXuIa017BEEkst5BG1yTevl8L9hrjjAF8VgKsIUA.jpg" width="50"/>
+       <div>
+        <h3 class="text-lg font-semibold">
+         Train 1
+        </h3>
+        <p class="text-gray-600">
+         Destination: City A
+        </p>
+       </div>
+      </div>
+      <span class="text-gray-600">
+       Arrival: 10:30 AM
+      </span>
+     </li>
+     <li class="flex items-center justify-between p-4 bg-gray-50 rounded-lg shadow">
+      <div class="flex items-center space-x-4">
+       <img alt="Image of Train 2" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/eInmmItCbgWaIyyrpkpezJepZwTmo9yQqv4Sb8MNneZ6pwiQB.jpg" width="50"/>
+       <div>
+        <h3 class="text-lg font-semibold">
+         Train 2
+        </h3>
+        <p class="text-gray-600">
+         Destination: City B
+        </p>
+       </div>
+      </div>
+      <span class="text-gray-600">
+       Arrival: 11:00 AM
+      </span>
+     </li>
+     <li class="flex items-center justify-between p-4 bg-gray-50 rounded-lg shadow">
+      <div class="flex items-center space-x-4">
+       <img alt="Image of Train 3" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/vNhHFr87kN5TJh943Ylf4m9q7DlHVBZrfUdFnoBLTIBaKsIUA.jpg" width="50"/>
+       <div>
+        <h3 class="text-lg font-semibold">
+         Train 3
+        </h3>
+        <p class="text-gray-600">
+         Destination: City C
+        </p>
+       </div>
+      </div>
+      <span class="text-gray-600">
+       Arrival: 11:30 AM
+      </span>
+     </li>
+     <li class="flex items-center justify-between p-4 bg-gray-50 rounded-lg shadow">
+      <div class="flex items-center space-x-4">
+       <img alt="Image of Train 4" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/NdJdSNiIyhpMOtN918PCC3Ukufy0dDWe8QJsol0CMRcfUYRoA.jpg" width="50"/>
+       <div>
+        <h3 class="text-lg font-semibold">
+         Train 4
+        </h3>
+        <p class="text-gray-600">
+         Destination: City D
+        </p>
+       </div>
+      </div>
+      <span class="text-gray-600">
+       Arrival: 12:00 PM
+      </span>
+     </li>
+     <li class="flex items-center justify-between p-4 bg-gray-50 rounded-lg shadow">
+      <div class="flex items-center space-x-4">
+       <img alt="Image of Train 5" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/NjO8P7WcJYr8DdHfWibGgs2HjP2NszWfgXluiTeaoIewpwiQB.jpg" width="50"/>
+       <div>
+        <h3 class="text-lg font-semibold">
+         Train 5
+        </h3>
+        <p class="text-gray-600">
+         Destination: City E
+        </p>
+       </div>
+      </div>
+      <span class="text-gray-600">
+       Arrival: 12:30 PM
+      </span>
+     </li>
+    </ul>
+   </div>
+  </div>
+  <script>
+   // Timer countdown logic
+        let timer = document.getElementById('timer');
+        let time = 10 * 60; // 10 minutes in seconds
+
+        setInterval(() => {
+            if (time <= 0) {
+                timer.textContent = "00:00:00";
+                return;
+            }
+            time--;
+            let minutes = Math.floor(time / 60);
+            let seconds = time % 60;
+            timer.textContent = `00:${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+        }, 1000);
+  </script>
+ </body>
+</html>

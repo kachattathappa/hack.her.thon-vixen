@@ -49,19 +49,19 @@ For Software:github
 
 # Screenshots (Add at least 3)
 ![Screenshot1](![lay1](https://github.com/user-attachments/assets/2c6c0a12-c448-421f-9bfa-06dc2b5ae7e0)
-)(![lay5](https://github.com/user-attachments/assets/a5eb27c7-edf2-4374-b38a-cb6af8b4f5b7))
+)
 
 *Add caption explaining what this shows*
 this code depicts the first page of our website containing the web name,logo,dashboard and buttons that will enable the user to select the checkpoint and also allow user to access their current location.(train.html)
 
 ![Screenshot2](![lay2](https://github.com/user-attachments/assets/314b8727-e973-41a1-82ce-75ccb296e6b2)
-))
+)
 
 *Add caption explaining what this shows*
 this one displays the nearby checkpoints and its live status(checkpoint.html) 
 
 ![Screenshot3](![lay4](https://github.com/user-attachments/assets/7e3bffe9-b305-4ec1-8741-cd2c6d3964b9)
-)![lay3](https://github.com/user-attachments/assets/f42c751c-b5e7-4892-bf9c-33bd6f193680)
+)
 
 *Add caption explaining what this shows*
 this page displays the details regarding the selected checkpoint and also the train details like (name,number,location and arrival time).

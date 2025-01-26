@@ -26,10 +26,10 @@
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
+- [html,css,javascript]
+- [vs code]
 - [Libraries used]
-- [Tools used]
+- [youtube,google,blackbox,chatgpt,codepen]
 
 For Hardware:
 - [List main components]
@@ -39,26 +39,48 @@ For Hardware:
 ### Implementation
 For Software:
 # Installation
-[commands]
+[winget install --id Microsoft.VisualStudioCode][winget install --id Git.Git -e --source winget]
 
 # Run
-[commands]
+[live server]
 
 ### Project Documentation
-For Software:
+For Software:github
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1](![Screenshot 2025-01-26 083901](https://github.com/user-attachments/assets/a9afd5de-ac6a-43d2-8e53-844aee611802))
 *Add caption explaining what this shows*
+this code depicts the first page of our website containing the web name,logo,dashboard and buttons that will enable the user to select the checkpoint and also allow user to access their current location.(train.html)
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](![Screenshot 2025-01-26 083944](https://github.com/user-attachments/assets/cd7a14f1-90d1-45d8-b0f8-5ae067e31b81)
+)
 *Add caption explaining what this shows*
+this one displays the nearby checkpoints and its live status(checkpoint.html) 
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3](![Screenshot 2025-01-26 084001](https://github.com/user-attachments/assets/f8f878a3-3dbd-4dff-8020-551f0777cb37)
+)
 *Add caption explaining what this shows*
+this page displays the details regarding the selected checkpoint and also the train details like (name,number,location and arrival time).
+we have set the timing constraints and for the gates which are closed, we have added a timer which indicates the next opening time.
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
+![Workflow](1. User Interface (Frontend):
+Home Page
+
+Options:
+Manually Enter Checkpoint Name: Allows the user to input a specific checkpoint.
+Use Location Tracking: Enables location tracking to display checkpoints near the user.
+Nearby Checkpoints Page
+
+Displays a list of checkpoints sorted by distance from the user's location.
+Includes live checkpoint statuses (Open/Closed).
+Checkpoint Details Page
+
+Shows:
+Checkpoint name and live status.
+Train schedule passing through the checkpoint.
+Distance from the user's location (if applicable).
+)
 *Add caption explaining your workflow*
 
 For Hardware:
@@ -71,7 +93,8 @@ For Hardware:
 *Add caption explaining the schematic*
 
 # Build Photos
-![Team](Add photo of your team here)
+![Team](![tinkus](https://github.com/user-attachments/assets/b191d7dc-cdbe-4115-a153-5dc95aea9b60)
+)
 
 
 ![Components](Add photo of your components here)
@@ -85,16 +108,16 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[https://drive.google.com/drive/folders/1tblub1VwJdKLL9gw3e4SfZuq3zmrPEMr?usp=sharing]
+the video demonstrates the workflow of our project.
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [NAILA NAZER]: [Specific contributions]
+- [M SNEHA SURESH]: [Specific contributions]
+- [JOANA JOHNSON]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub

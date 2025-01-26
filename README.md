@@ -48,8 +48,8 @@ For Software:
 For Software:github
 
 # Screenshots (Add at least 3)
-![Screenshot1](![lay1](https://github.com/user-attachments/assets/2c6c0a12-c448-421f-9bfa-06dc2b5ae7e0)
-)
+<img src="https://github.com/user-attachments/assets/2c6c0a12-c448-421f-9bfa-06dc2b5ae7e0">
+
 
 *Add caption explaining what this shows*
 this code depicts the first page of our website containing the web name,logo,dashboard and buttons that will enable the user to select the checkpoint and also allow user to access their current location.(train.html)

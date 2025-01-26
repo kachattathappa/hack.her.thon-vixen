@@ -115,9 +115,9 @@ the video demonstrates the workflow of our project.
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [NAILA NAZER]: [Specific contributions]
-- [M SNEHA SURESH]: [Specific contributions]
-- [JOANA JOHNSON]: [Specific contributions]
+- [NAILA NAZER]: [equal contributions-html,css]
+- [M SNEHA SURESH]: [equal contribution-design,open source layout]
+- [JOANA JOHNSON]: [equal contribution-documentation,vs code]
 
 ---
 Made with ❤️ at TinkerHub

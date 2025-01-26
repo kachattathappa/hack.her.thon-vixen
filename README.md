@@ -12,7 +12,7 @@
 - Member 3: [Joana] - [TKMCE]
 
 ### Hosted Project Link
-[https://github.com/kachattathappa/hack.her.thon-vixen]
+[https://hack-her-thon-vixen.vercel.app/]
 
 ### Project Description
 [The Railway Checkpoint Monitoring System predicts and displays closure timings of railway crossings based on train schedules. It helps commuters plan better by showing real-time status and providing alerts or map-based updates. The system reduces waiting times and enhances travel convenience near railway crossings.]

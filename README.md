@@ -42,7 +42,7 @@ For Software:
 [winget install --id Microsoft.VisualStudioCode][winget install --id Git.Git -e --source winget]
 
 # Run
-[live server]
+[live server][git push][git pull]
 
 ### Project Documentation
 For Software:github
